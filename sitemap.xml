@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- 首页 - 最高优先级 -->
+    <url>
+        <loc>https://rupeetochineseyuan.com/</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- 印度支付解决方案页面 - 核心业务页面 -->
+    <url>
+        <loc>https://rupeetochineseyuan.com/solutions</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- 联系我们页面 - 重要页面 -->
+    <url>
+        <loc>https://rupeetochineseyuan.com/contact</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- 隐私政策页面 -->
+    <url>
+        <loc>https://rupeetochineseyuan.com/privacy</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    
+    <!-- 使用条款页面 -->
+    <url>
+        <loc>https://rupeetochineseyuan.com/terms</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+</urlset> 
