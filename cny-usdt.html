@@ -1394,5 +1394,33 @@
             });
         });
     </script>
+    
+    <!-- 确保移动端菜单正常工作的备用脚本 -->
+    <script>
+        // 页面完全加载后的备用检查
+        window.addEventListener('load', function() {
+            const mobileToggle = document.querySelector('.mobile-menu-toggle');
+            const navMenu = document.querySelector('.nav-menu');
+            
+            // 如果按钮存在但没有事件监听器，添加一个
+            if (mobileToggle && !mobileToggle.hasAttribute('data-listener-added')) {
+                mobileToggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    
+                    if (navMenu) {
+                        navMenu.classList.toggle('show');
+                        if (navMenu.classList.contains('show')) {
+                            mobileToggle.textContent = '×';
+                        } else {
+                            mobileToggle.textContent = '☰';
+                        }
+                    }
+                });
+                
+                mobileToggle.setAttribute('data-listener-added', 'true');
+            }
+        });
+    </script>
 </body>
 </html>
