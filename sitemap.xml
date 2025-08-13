@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <!-- 首页 - 最高优先级 -->
+    <!-- 首页 - 卢比兑人民币汇率转换器 -->
     <url>
         <loc>https://rupeetochineseyuan.com/</loc>
-        <lastmod>2025-01-11</lastmod>
+        <lastmod>2025-01-13</lastmod>
         <changefreq>hourly</changefreq>
         <priority>1.0</priority>
+    </url>
+    
+    <!-- 人民币兑USDT汇率转换器 - 核心功能页面 -->
+    <url>
+        <loc>https://rupeetochineseyuan.com/cny-usdt</loc>
+        <lastmod>2025-01-13</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.9</priority>
     </url>
     
     <!-- 印度支付解决方案页面 - 核心业务页面 -->
     <url>
         <loc>https://rupeetochineseyuan.com/solutions</loc>
-        <lastmod>2025-01-11</lastmod>
+        <lastmod>2025-01-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -19,7 +27,7 @@
     <!-- 联系我们页面 - 重要页面 -->
     <url>
         <loc>https://rupeetochineseyuan.com/contact</loc>
-        <lastmod>2025-01-11</lastmod>
+        <lastmod>2025-01-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
@@ -27,7 +35,7 @@
     <!-- 隐私政策页面 -->
     <url>
         <loc>https://rupeetochineseyuan.com/privacy</loc>
-        <lastmod>2025-01-11</lastmod>
+        <lastmod>2025-01-13</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
     </url>
@@ -35,7 +43,7 @@
     <!-- 使用条款页面 -->
     <url>
         <loc>https://rupeetochineseyuan.com/terms</loc>
-        <lastmod>2025-01-11</lastmod>
+        <lastmod>2025-01-13</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
     </url>
